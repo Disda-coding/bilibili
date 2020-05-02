@@ -13,6 +13,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5rpx;
+}
+.user{
+  margin: 5rpx;
 }
 .down_app{
   flex:3;
@@ -24,4 +28,5 @@
   color: white;
   border-radius: 10rpx;
   padding: 10rpx;
+  margin: 5rpx;
 }
