@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/componentDemo/demo",
     "pages/index/index",
     "pages/detail/detail"
   ],

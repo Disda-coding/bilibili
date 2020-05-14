@@ -1,0 +1,11 @@
+<!-- 
+    父组件 向子组件传递数据 通过标签属性来传递
+        在子组件上进行接收
+    子向父 传数据 通过事件传递
+ -->
+<Component tabs="{{tabs}}" binditemChange1="handleItemChange">
+    <block wx:if="{{tabs[0].isActive}}">1</block>
+    <block wx:elif="{{tabs[1].isActive}}">2</block>
+    <block wx:elif="{{tabs[2].isActive}}">3</block>
+    <block wx:else>4</block>
+</Component>
